@@ -1,0 +1,19 @@
+.btn {
+    font-size: 22px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+  }
+  
+.green {
+background-color: #d7d7d7;
+transition: all 1s ease;
+transform: scale(.7);
+}
+
+.green:hover {
+background-color: #000;
+/*  Making button bigger on hover  */
+transform: scale(1.5) perspective(1px)
+}
