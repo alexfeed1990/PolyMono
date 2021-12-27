@@ -8,7 +8,7 @@ function createWindow () {
     const { width, height } = primaryDisplay.workAreaSize //Get h, w of display
 
     const win = new BrowserWindow({width, height, autoHideMenuBar: true})
-    win.loadFile('index.html') //Load index.html
+    win.loadFile('main.html') //Load index.html
 }
 
 function reqModules() {

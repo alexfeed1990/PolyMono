@@ -32,3 +32,11 @@ body {
   text-align: center;
   font-family: polyfont;
 }
+
+.opbtn {
+  position: relative;
+  background: url('./assets/options.png');
+  background-size: 400px 200px;
+  width: 400px;
+  height: 200px;
+}
