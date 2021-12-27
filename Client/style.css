@@ -14,6 +14,15 @@
   transform: scale(1.25) perspective(1px)
 }
 
+.backbtn {
+  text-align: left;
+  position: relative;
+  background: url('./assets/back.png');
+  background-size: 200px 100px;
+  width: 200px;
+  height: 100px;
+}
+
 .playbtn {
   position: relative;
   background: url('./assets/play.png');
