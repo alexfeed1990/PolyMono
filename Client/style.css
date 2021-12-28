@@ -14,9 +14,24 @@
   transform: scale(1.25) perspective(1px)
 }
 
+.sbtn {
+  background: lightgray;
+  border: none;
+  border-radius: 8px;
+  list-style: none;
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+  transition: all .5s ease;
+}
+
+.sbtn:hover {
+  transform: scale(1.25) perspective(1px)
+}
+
 .backbtn {
   text-align: left;
-  position: relative;
+  position: absolute;
   background: url('./assets/back.png');
   background-size: 200px 100px;
   width: 200px;
@@ -24,7 +39,9 @@
 }
 
 .playbtn {
-  position: relative;
+  margin: 0 auto;
+  text-align: center !important;
+  position: relative !important;
   background: url('./assets/play.png');
   background-size: 400px 350px;
   width: 400px;
@@ -36,14 +53,19 @@
   src: url('./assets/Polyfont.otf');
 }
 
-body {
+p, h1, h2, h3, h4, h5, h6 {
   text-align: center;
-  font-family: polyfont;
+}
+
+body {
   background-color: #c3c3f2;
+  font-family: polyfont;
 }
 
 .opbtn {
-  position: relative;
+  margin: 0 auto;
+  text-align: center !important;
+  position: relative !important;
   background: url('./assets/options.png');
   background-size: 400px 200px;
   width: 400px;
